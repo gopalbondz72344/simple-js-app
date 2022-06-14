@@ -11,7 +11,14 @@
 function decrement()
 {
     count -= 1
-    countEl.textContent = count
+    if(count >= 0)
+    {
+       countEl.textContent = count
+    }
+    else
+    {
+      count = 0;
+    }
 }
 function save()
 {
