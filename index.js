@@ -18,6 +18,7 @@ function decrement()
     else
     {
       count = 0;
+      alert("Cannot decrement less than zero because there cannot be negtive number of people!!!")
     }
 }
 function save()
